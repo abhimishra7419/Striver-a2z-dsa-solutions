@@ -9,6 +9,7 @@ My solutions to Striver's A2Z DSA Sheet with clean code, explanations, and conti
 <br>
 <br>
 📁 Topics Covered
-- Patterns and Basic Math
+- Patterns
+- Basic Math
 - Arrays
 - Binary Search
