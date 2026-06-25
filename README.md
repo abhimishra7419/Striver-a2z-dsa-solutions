@@ -1,0 +1,14 @@
+My solutions to Striver's A2Z DSA Sheet with clean code, explanations, and continuous programs.
+<br>
+📚 Language: Python
+<br>
+🎯 Goal: Complete Striver's A2Z DSA Sheet
+<br>
+📈 Progress: 116/474
+<br>
+<br>
+📁 Topics Covered:
+- Patterns
+- Basic Math
+- Arrays
+- Binary Search
