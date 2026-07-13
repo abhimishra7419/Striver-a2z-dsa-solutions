@@ -25,10 +25,13 @@ class solution:
         self.margesort(arr, low, mid)
         self.margesort(arr, mid+1, high)
         self.marge(arr, low , mid, high)
+<<<<<<< HEAD
 
         
 
 
+=======
+>>>>>>> restore-solution
 arr = [5, 2, 8, 4, 1]
 a = solution()
 a.margesort(arr, 0, len(arr)-1)
