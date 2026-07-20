@@ -5,7 +5,7 @@ My solutions to Striver's A2Z DSA Sheet with clean code, explanations, and conti
 <br>
 🎯 Goal: Complete Striver's A2Z DSA Sheet
 <br>
-📈 Progress: 116/474
+📈 Progress: 121/474
 <br>
 <br>
 📁 Topics Covered:
