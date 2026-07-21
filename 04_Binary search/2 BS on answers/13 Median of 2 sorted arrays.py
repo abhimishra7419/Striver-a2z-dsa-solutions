@@ -16,7 +16,7 @@
 # print(a.finding_median(arr1, arr2))
 
 
-'''My Optimal approach'''
+'''Optimal approach'''
 class Solution:
     def finding_median(self, arr1, arr2):
         if len(arr1) > len(arr2):

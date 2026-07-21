@@ -17,7 +17,7 @@
 # print(a.find_peak(arr))
 
 
-'''My optimla approach'''
+'''My optimal approach'''
 # class Solution:
 #     def find_peak(self, arr):
 #         n = len(arr)
