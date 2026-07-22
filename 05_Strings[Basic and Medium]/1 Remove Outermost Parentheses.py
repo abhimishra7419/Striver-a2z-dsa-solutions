@@ -1,3 +1,25 @@
+'''My approach'''  # space complexity:- O(N)
+# class Solution:
+#     def removingParentheses(self, s):
+#         result = []
+#         stack = []
+#         for char in s:
+#             if char == '(':
+#                 if len(stack) > 0:
+#                     result.append('(')
+#                 stack.append(char)
+#             if char == ')':
+#                 stack.pop()
+#                 if len(stack) > 0:
+#                     result.append(char)
+#         return "".join(result)
+# s = "()(()())(())"
+# a = Solution()
+# print(a.removingParentheses(s))
+
+
+
+
 '''Approach'''
 class Solution:
     def removingParentheses(self, s):
@@ -17,6 +39,3 @@ class Solution:
 s = "()(()())(())"
 a = Solution()
 print(a.removingParentheses(s))
-
-
-# also try stacking approach 
