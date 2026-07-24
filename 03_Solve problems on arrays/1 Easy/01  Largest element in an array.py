@@ -18,13 +18,27 @@
 
 '''These two programe are same'''
 
-class Solution:
-    def Larest_element(self, arr):
-        arr.sort()
-        return arr[-1]
+# class Solution:
+#     def Larest_element(self, arr):
+#         arr.sort()
+#         return arr[-1]
     
+# arr = [3, 5, 7, 4, 2, 6, 7, 4, 7, 8, 9, 9]
+# a = Solution()
+# # print(a.QuickSort(arr, 0, len(arr)-1))
+# print(a.Larest_element(arr))
+# # print(arr)
+
+
+'''My Optimal approach'''
+class Solution:
+    def Largest_element(self, arr):
+        n = len(arr)
+        max_val = float('-inf')
+        for i in range(n):
+            if arr[i] > max_val:
+                max_val = arr[i]
+        return max_val
 arr = [3, 5, 7, 4, 2, 6, 7, 4, 7, 8, 9, 9]
 a = Solution()
-# print(a.QuickSort(arr, 0, len(arr)-1))
-print(a.Larest_element(arr))
-# print(arr)
+print(a.Largest_element(arr))
