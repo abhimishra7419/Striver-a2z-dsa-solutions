@@ -5,7 +5,7 @@ My solutions to Striver's A2Z DSA Sheet with clean code, explanations, and conti
 <br>
 🎯 Goal: Complete Striver's A2Z DSA Sheet
 <br>
-📈 Progress: 144/474
+📈 Progress: 149/474
 <br>
 <br>
 📁 Topics Covered:
@@ -14,3 +14,4 @@ My solutions to Striver's A2Z DSA Sheet with clean code, explanations, and conti
 - Arrays
 - Binary Search
 - Strings
+- Linked List
