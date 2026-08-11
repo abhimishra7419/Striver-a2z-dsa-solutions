@@ -3,7 +3,6 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-
 class Solution:
     def deletion(self, head):
         if head is None or head.next is None:
