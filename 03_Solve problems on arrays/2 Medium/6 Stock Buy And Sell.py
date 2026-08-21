@@ -60,3 +60,16 @@ arr1 = [7,1,5,3,6,4]
 a = Solution()
 print(a.maximam_profit(arr))
 print(a.maximam_profit(arr1))
+
+
+
+'''Optimal approach (for memory)'''
+# class Solution:
+#     def maxProfit(self, prices: List[int]) -> int:
+#         max_profit = 0
+
+#         for i in range(len(prices) - 1):
+#             profit = prices[i + 1] - prices[i] 
+#             max_profit = max(profit, max_profit)
+#             prices[i+1] = min(prices[i], prices[i+1])
+#         return max_profit
