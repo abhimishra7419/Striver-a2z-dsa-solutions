@@ -32,6 +32,6 @@ class Solution:
                 break
         arr[index+1:] = reversed(arr[index+1:])
         return arr
-arr = [5, 4, 3, 2, 1, 0, 0]
+arr = [5, 4, 3, 1, 2, 1, 0]
 a = Solution()
 print(a.next_permutation(arr))
