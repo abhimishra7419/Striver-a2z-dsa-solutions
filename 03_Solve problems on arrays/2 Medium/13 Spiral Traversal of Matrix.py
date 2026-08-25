@@ -13,11 +13,11 @@ class Solution:
             for i in range(top, down+1):
                 result.append(matrix[i][right])
             right -= 1
-            if left <= right:
+            if top <= down:
                 for i in range(right, left-1, -1):
                     result.append(matrix[down][i])
                 down -= 1
-            if top <= down:
+            if left <= right:
                 for i in range(down, top-1, -1):
                     result.append(matrix[i][left])
                 left += 1
