@@ -5,6 +5,8 @@ class Node:
         self.next = next
 class Solution:
     def reverseLL(self, head, k):
+        if not head or not head.next or k == 0:
+            return head
         current = head
         if k == 0:
             return head
