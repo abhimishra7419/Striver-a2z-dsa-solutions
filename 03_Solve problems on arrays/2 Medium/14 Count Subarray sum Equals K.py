@@ -15,7 +15,7 @@
 # a = Solution()
 # print(a.count_subarry(arr, 6))
 
-# '''Optimal approach'''
+'''Optimal approach'''
 class Solution:
     def count_subarry(self, arr, k):
         n = len(arr)
