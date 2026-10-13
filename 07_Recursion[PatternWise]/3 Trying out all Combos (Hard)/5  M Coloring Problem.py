@@ -1,5 +1,4 @@
 '''Solution'''
-
 class Solution:
     def graphColoring(self, edges, m, n):
         adj = [[] for _ in range(n)]
