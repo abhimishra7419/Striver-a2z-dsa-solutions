@@ -15,3 +15,5 @@ My solutions to Striver's A2Z DSA Sheet with clean code, explanations, and conti
 - Binary Search
 - Strings
 - Linked List
+- Recursion
+- Bit Manipulation
