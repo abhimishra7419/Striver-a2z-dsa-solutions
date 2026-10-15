@@ -1,4 +1,4 @@
-'''My Brute force'''
+'''My Brute force'''# My solution actually is better.
 # class Node:
 #     def __init__(self, data, next=None):
 #         self.data = data
