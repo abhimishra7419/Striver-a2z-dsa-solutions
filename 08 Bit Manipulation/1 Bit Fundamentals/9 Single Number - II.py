@@ -14,7 +14,7 @@
 #     print(a.singleNumber(arr))
 
 
-'''my Optimal approach'''
+'''Optimal approach'''
 class Solution:
     def singleNumber(self, nums):
         ones = 0
