@@ -19,14 +19,11 @@ class Solution:
     def singleNumber(self, nums):
         ones = 0
         twos = 0
-
         for num in nums:
             ones = (ones ^ num) & ~twos
             twos = (twos ^ num) & ~ones
-
         return ones
 
-        
 if __name__ == "__main__":
     arr = [1, 0, 3, 10, 1, 1, 3, 3, 10, 10]
     a = Solution()
