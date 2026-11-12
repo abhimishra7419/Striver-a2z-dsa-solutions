@@ -17,3 +17,4 @@ My solutions to Striver's A2Z DSA Sheet with clean code, explanations, and conti
 - Linked List
 - Recursion
 - Bit Manipulation
+- Greedy Algorithms
